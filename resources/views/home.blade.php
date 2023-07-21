@@ -17,6 +17,29 @@
 
 <body>
     @include('partials.header')
+    <main>
+        <div class="jumbotron">
+        </div>
+        <div class="background">
+          <div class="container h100">
+              <div class="row h100">
+                  <div class="col">
+                      <div class="contents">
+                        <div class="comics">
+
+                        </div>
+                        <button>
+                          load more
+                        </button>
+                        <div class="badge">
+                          current series
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </main>
 </body>
 
 </html>
