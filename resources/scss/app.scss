@@ -188,46 +188,64 @@ ul{
     background-image: url('../images/footer-bg.jpg');
     background-size: cover;
     position: relative;
-    .col{
-        display: flex;
-        flex-direction: column;
-        max-height: 350px;
-        flex-wrap: wrap;
-        padding: 30px 12px;
-    }
-    .section{
-        margin-right: 25px;
-        flex-wrap: wrap;
-    }
-    h3{
-        text-transform: uppercase;
-        font-size: 16px;
-        color: white;
-        margin-bottom: 10px;
-    }
-    ul{
-        margin-bottom: 15px;
-        padding: 0;
-        z-index: 10;
-        a{
-            font-size: 10px;
-            color: gray;
-            &:hover{
-                color: lighten( gray, 30%);
+    .container{
+        padding: 30px 0;
+        .row:first-child{
+            .col{
+                display: flex;
+                flex-direction: column;
+                max-height: 370px;
+                max-width: 35%;
+                flex-wrap: wrap;
+                .section{
+                    margin-right: 25px;
+                    flex-wrap: wrap;
+                    width: 100px;
+                    h3{
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        color: white;
+                        margin-bottom: 10px;
+                    }
+                    ul{
+                        margin-bottom: 15px;
+                        padding: 0;
+                        z-index: 10;
+                        a{
+                            font-size: 10px;
+                            color: gray;
+                            &:hover{
+                                color: lighten( gray, 30%);
+                            }
+                        }
+                    }
+                }
             }
         }
-    }
-    .bg-logo{
-        position: absolute;
-        top: 0px;
-        left: 52%;
-        height: 100%;
-        width: 470px;
-        background-image: url('../images/dc-logo-bg.png');
-        background-size: 100%;
-        background-position-y: 50%;
-        background-position-x: 20%;
-        z-index: 5;
+        .col{
+            padding: 0 24px;
+        }
+        .bg-logo{
+            position: absolute;
+            top: 0px;
+            left: 52%;
+            height: 100%;
+            width: 470px;
+            background-image: url('../images/dc-logo-bg.png');
+            background-size: 100%;
+            background-position-y: 50%;
+            background-position-x: 20%;
+            z-index: 5;
+        }
+        p{
+            color: gray;
+            font-size: 10px;
+            margin: 0;
+            span{
+                color: blue;
+                cursor: pointer;
+            }
+        }
     }
 }
 .bottom-bar{

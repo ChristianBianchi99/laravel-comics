@@ -223,6 +223,13 @@
 
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise <span>noted here</span>. All rights reserved. <br> <span>Cookies Settings</span>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="bottom-bar">
