@@ -83,11 +83,22 @@ ul{
 }
 }
 .search{
+    display: flex;
     input{
         appearance: none;
         border: none;
-        border-bottom: 3.5px solid rgb(2, 130, 249);
-        width: 100%;
+        border-bottom: 3px solid rgb(2, 130, 249);
+        width: 90%;
+    }
+    input::-webkit-input-placeholder{
+        color: black;
+        font-weight: bold;
+        text-align: end;
+    }
+    i{
+        vertical-align: baseline;
+        font-size: 18px;
+        border-bottom: 3px solid rgb(2, 130, 249);
     }
 }
 /* Main */
