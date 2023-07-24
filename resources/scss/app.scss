@@ -107,6 +107,7 @@ ul{
     background-size: cover;
     height: 320px;
 }
+/* Comics */
 .background{
     background-color: rgb(28, 28, 28);
 }
@@ -124,9 +125,10 @@ ul{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        .comics-card{
-        width: calc(100% / 6 - 15px);
-        margin-bottom: 40px;
+        a{
+            color: inherit;
+            width: calc(100% / 6 - 15px);
+            margin-bottom: 40px;
             img{
                 width: 100%;
                 height: calc((100vw * 70 / 100) / 6 - 15px);
@@ -192,6 +194,144 @@ ul{
         li:last-child .icon{
             height: 30px;
         }
+    }
+}
+/* Comics */
+.container-comic{
+    width: 50%;
+    margin: auto;
+    .details{
+        font-size: 12px;
+        h3{
+            color: rgb(0, 63, 94);
+            font-size: 25px;
+        }
+        table{
+            width: 100%;
+            background-color: rgb(85, 186, 89);
+            border-bottom: 1px solid rgb(38, 85, 40);
+            margin: 20px 0;
+            color: white;
+            font-weight: bold;
+            td{
+                padding: 10px;
+            }
+            td:first-child{
+                width: 70%;
+                padding: 10px 20px;
+                border-right: 1px solid rgb(38, 85, 40);
+            }
+            td:last-child{
+                text-align: center;
+            }
+            span{
+                color: rgb(186, 253, 156);
+            }
+        }
+    }
+    .advertising, .details{
+        padding: 50px 0;
+        .sentence{
+            position: absolute;
+            top: -20px;
+            right: 0;
+            font-size: 12px;
+            font-weight: bold;
+            color: rgb(85, 85, 85);
+        }
+        .adv{
+            width: 100%;
+            position: relative;
+            margin-top: 7px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+.background-comic{
+    background-color: rgb(246, 246, 246);
+    border-top: 1px solid lightgray;
+    .talent, .specs{
+        font-size: 10px;
+        margin-bottom: 80px;
+        h5{
+            margin: 25px 0;
+        }
+        table{
+            width: 100%;
+            td{
+                padding: 5px 0;
+                border-top: 1px solid lightgray;
+                border-bottom: 1px solid lightgray;
+                vertical-align: top;
+            }
+            td:first-child{
+                width: calc(100% / 3);
+            }
+        }
+    }
+    .talent{
+        td:last-child{
+            color: rgb(55, 55, 245);
+        }
+    }
+    .specs{
+        tr:first-child{
+            td:last-child{
+                color: rgb(55, 55, 245);
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+.bottom-row{
+    .col:first-child{
+        border-left: 1px solid lightgray;
+    }
+    .col{
+        border-right: 1px solid lightgray;
+    }
+    .content{
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+        font-weight: bold;
+        color: lightgray;
+        padding: 15px 5px;
+        .icon{
+            background-image: url('../images/cta-icons.png');
+            height: 37px;
+            width: 33px;
+        }
+    }
+    .col:nth-child(2){
+        .icon{
+            background-position-x: 37px;
+            width: 37px;
+        }
+    }
+    .col:nth-child(3){
+        .icon{
+            background-position-x: 70px;
+        }
+    }
+    .col:nth-child(4){
+        .icon{
+            background-position-x: 115px;
+            width: 41px;
+        }
+    }
+}
+.blue-string{
+    background-color: rgb(2, 130, 249);
+    position: relative;
+    height: 50px;
+    .poster{
+        border: 1px solid white;
+        height: 200px;
+        position: absolute;
+        bottom: 10px;
     }
 }
 /* Footer */

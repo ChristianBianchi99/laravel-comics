@@ -8,14 +8,16 @@
                 <div class="contents">
                   <div class="comics">
                     @foreach ($comics as $key => $comic)
-                      <div class="comics-card">
-                        <div class="img">
-                            <img src="https://picsum.photos/200/300" alt="{{ $comic['title'] }}">
+                      <a href="{{ route('comic', $key)}}">
+                        <div class="comics-card">
+                          <div class="img">
+                              <img src="https://picsum.photos/200/300" alt="{{ $comic['title'] }}">
+                          </div>
+                          <div class="text">
+                              {{$comic['title']}}
+                          </div>
                         </div>
-                        <div class="text">
-                            {{$comic['title']}}
-                        </div>
-                      </div>
+                      </a>
                     @endforeach
                   </div>
                   <button>

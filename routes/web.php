@@ -21,4 +21,4 @@ Route::get('/{comic}', function ($key){
     $comics = config('comics.comics');
     $comic = $comics[$key];
     return view('products.comic', compact('comic'));
-});
+})->name('comic');

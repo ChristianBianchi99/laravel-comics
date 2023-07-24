@@ -49,7 +49,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="" class="active">
+                                <a href="/" class="active">
                                     Comics
                                 </a>
                             </li>
