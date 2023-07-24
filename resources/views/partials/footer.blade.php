@@ -17,58 +17,6 @@
 
 <body>
     <footer>
-        <div class="top-bar">
-            <div class="container h100">
-                <div class="row h100">
-                    <div class="col">
-                        <div class="list">
-                            <ul>
-                                <li>
-                                    <div class="icon">
-                                        <img src="{{Vite::asset('resources/images/buy-comics-digital-comics.png')}}" alt="digital comics">
-                                    </div>
-                                    <a href="#">
-                                        digital comics
-                                    </a>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <img src="{{Vite::asset('resources/images/buy-comics-merchandise.png')}}" alt="dc merchandise">
-                                    </div>
-                                    <a href="#">
-                                        dc merchandise
-                                    </a>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <img src="{{Vite::asset('resources/images/buy-comics-subscriptions.png')}}" alt="subscription">
-                                    </div>
-                                    <a href="#">
-                                        subscription
-                                    </a>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <img src="{{Vite::asset('resources/images/buy-comics-shop-locator.png')}}" alt="comic shop locator">
-                                    </div>
-                                    <a href="#">
-                                        comic shop locator
-                                    </a>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <img src="{{Vite::asset('resources/images/buy-dc-power-visa.svg')}}" alt="dc power visa">
-                                    </div>
-                                    <a href="#">
-                                        dc power visa
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="middle-bar">
             <div class="container h100">
                 <div class="row h100">
