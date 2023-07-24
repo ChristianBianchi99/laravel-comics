@@ -17,3 +17,8 @@ Route::get('/', function () {
     $comics = config('comics.comics');
     return view('products.comics', compact('comics'));
 })->name('homepage');
+Route::get('/{comic}', function ($key){
+    $comics = config('comics.comics');
+    $comic = $comics[$key];
+    return view('products.comic', compact('comic'));
+});
